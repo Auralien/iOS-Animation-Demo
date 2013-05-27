@@ -18,6 +18,20 @@
 		8BDF91AD174F9B84008C927C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91AC174F9B84008C927C /* Default-568h@2x.png */; };
 		8BDF91B0174F9B84008C927C /* ADMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF91AF174F9B84008C927C /* ADMViewController.m */; };
 		8BDF91B3174F9B84008C927C /* ADMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91B1174F9B84008C927C /* ADMViewController.xib */; };
+		8BDF91BC174F9C97008C927C /* HearthstoneCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91B9174F9C97008C927C /* HearthstoneCenter.png */; };
+		8BDF91BD174F9C97008C927C /* HearthstoneLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91BA174F9C97008C927C /* HearthstoneLeft.png */; };
+		8BDF91BE174F9C97008C927C /* HearthstoneRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91BB174F9C97008C927C /* HearthstoneRight.png */; };
+		8BDF91C017532111008C927C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDF91BF17532111008C927C /* QuartzCore.framework */; };
+		8BDF91CA175334C6008C927C /* card01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C1175334C5008C927C /* card01.png */; };
+		8BDF91CB175334C6008C927C /* card02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C2175334C5008C927C /* card02.png */; };
+		8BDF91CC175334C6008C927C /* card03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C3175334C5008C927C /* card03.png */; };
+		8BDF91CD175334C6008C927C /* card04.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C4175334C5008C927C /* card04.png */; };
+		8BDF91CE175334C6008C927C /* card05.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C5175334C6008C927C /* card05.png */; };
+		8BDF91CF175334C6008C927C /* card06.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C6175334C6008C927C /* card06.png */; };
+		8BDF91D0175334C6008C927C /* card07.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C7175334C6008C927C /* card07.png */; };
+		8BDF91D1175334C6008C927C /* card08.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C8175334C6008C927C /* card08.png */; };
+		8BDF91D2175334C6008C927C /* card09.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91C9175334C6008C927C /* card09.png */; };
+		8BDF91D41753432E008C927C /* BackgroundOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF91D31753432D008C927C /* BackgroundOpen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +51,20 @@
 		8BDF91AE174F9B84008C927C /* ADMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMViewController.h; sourceTree = "<group>"; };
 		8BDF91AF174F9B84008C927C /* ADMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMViewController.m; sourceTree = "<group>"; };
 		8BDF91B2174F9B84008C927C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADMViewController.xib; sourceTree = "<group>"; };
+		8BDF91B9174F9C97008C927C /* HearthstoneCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HearthstoneCenter.png; sourceTree = "<group>"; };
+		8BDF91BA174F9C97008C927C /* HearthstoneLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HearthstoneLeft.png; sourceTree = "<group>"; };
+		8BDF91BB174F9C97008C927C /* HearthstoneRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HearthstoneRight.png; sourceTree = "<group>"; };
+		8BDF91BF17532111008C927C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BDF91C1175334C5008C927C /* card01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card01.png; sourceTree = "<group>"; };
+		8BDF91C2175334C5008C927C /* card02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card02.png; sourceTree = "<group>"; };
+		8BDF91C3175334C5008C927C /* card03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card03.png; sourceTree = "<group>"; };
+		8BDF91C4175334C5008C927C /* card04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card04.png; sourceTree = "<group>"; };
+		8BDF91C5175334C6008C927C /* card05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card05.png; sourceTree = "<group>"; };
+		8BDF91C6175334C6008C927C /* card06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card06.png; sourceTree = "<group>"; };
+		8BDF91C7175334C6008C927C /* card07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card07.png; sourceTree = "<group>"; };
+		8BDF91C8175334C6008C927C /* card08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card08.png; sourceTree = "<group>"; };
+		8BDF91C9175334C6008C927C /* card09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card09.png; sourceTree = "<group>"; };
+		8BDF91D31753432D008C927C /* BackgroundOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOpen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDF91C017532111008C927C /* QuartzCore.framework in Frameworks */,
 				8BDF9197174F9B84008C927C /* UIKit.framework in Frameworks */,
 				8BDF9199174F9B84008C927C /* Foundation.framework in Frameworks */,
 				8BDF919B174F9B84008C927C /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +102,7 @@
 		8BDF9195174F9B84008C927C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BDF91BF17532111008C927C /* QuartzCore.framework */,
 				8BDF9196174F9B84008C927C /* UIKit.framework */,
 				8BDF9198174F9B84008C927C /* Foundation.framework */,
 				8BDF919A174F9B84008C927C /* CoreGraphics.framework */,
@@ -96,6 +126,19 @@
 		8BDF919D174F9B84008C927C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BDF91C1175334C5008C927C /* card01.png */,
+				8BDF91C2175334C5008C927C /* card02.png */,
+				8BDF91C3175334C5008C927C /* card03.png */,
+				8BDF91C4175334C5008C927C /* card04.png */,
+				8BDF91C5175334C6008C927C /* card05.png */,
+				8BDF91C6175334C6008C927C /* card06.png */,
+				8BDF91C7175334C6008C927C /* card07.png */,
+				8BDF91C8175334C6008C927C /* card08.png */,
+				8BDF91C9175334C6008C927C /* card09.png */,
+				8BDF91B9174F9C97008C927C /* HearthstoneCenter.png */,
+				8BDF91BA174F9C97008C927C /* HearthstoneLeft.png */,
+				8BDF91BB174F9C97008C927C /* HearthstoneRight.png */,
+				8BDF91D31753432D008C927C /* BackgroundOpen.png */,
 				8BDF919E174F9B84008C927C /* AnimationDemo-Info.plist */,
 				8BDF919F174F9B84008C927C /* InfoPlist.strings */,
 				8BDF91A2174F9B84008C927C /* main.m */,
@@ -164,6 +207,19 @@
 				8BDF91AB174F9B84008C927C /* Default@2x.png in Resources */,
 				8BDF91AD174F9B84008C927C /* Default-568h@2x.png in Resources */,
 				8BDF91B3174F9B84008C927C /* ADMViewController.xib in Resources */,
+				8BDF91BC174F9C97008C927C /* HearthstoneCenter.png in Resources */,
+				8BDF91BD174F9C97008C927C /* HearthstoneLeft.png in Resources */,
+				8BDF91BE174F9C97008C927C /* HearthstoneRight.png in Resources */,
+				8BDF91CA175334C6008C927C /* card01.png in Resources */,
+				8BDF91CB175334C6008C927C /* card02.png in Resources */,
+				8BDF91CC175334C6008C927C /* card03.png in Resources */,
+				8BDF91CD175334C6008C927C /* card04.png in Resources */,
+				8BDF91CE175334C6008C927C /* card05.png in Resources */,
+				8BDF91CF175334C6008C927C /* card06.png in Resources */,
+				8BDF91D0175334C6008C927C /* card07.png in Resources */,
+				8BDF91D1175334C6008C927C /* card08.png in Resources */,
+				8BDF91D2175334C6008C927C /* card09.png in Resources */,
+				8BDF91D41753432E008C927C /* BackgroundOpen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
