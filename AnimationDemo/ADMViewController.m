@@ -118,6 +118,10 @@ CGFloat const cardHeight = 287.0;
         pan.delegate = self;
         [imageView addGestureRecognizer:pan];
         
+        UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
+        longPress.delegate = self;
+        [imageView addGestureRecognizer:longPress];
+        
         [self.view insertSubview:imageView belowSubview:self.left];
         [self.images addObject:imageView];
         
@@ -155,10 +159,16 @@ CGFloat const cardHeight = 287.0;
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
-                         imageView.layer.opacity = 0;
+                         if ([tapGestureRecognizer numberOfTouches] == 2) {
+                             imageView.layer.opacity = 0;
+                         } else {
+                             [self.view bringSubviewToFront:imageView];
+                         }
                      }
                      completion:^(BOOL finished){
-                         [self.images removeObject:imageView];
+                         if ([tapGestureRecognizer numberOfTouches] == 2) {
+                             [self.images removeObject:imageView];
+                         }
                      }];
 }
 
@@ -181,6 +191,20 @@ CGFloat const cardHeight = 287.0;
         [piece setCenter:CGPointMake([piece center].x + translation.x, [piece center].y + translation.y)];
         [panGestureRecognizer setTranslation:CGPointZero inView:[piece superview]];
     }
+}
+
+/// Method removes card by long press
+- (void)handleLongPress:(UILongPressGestureRecognizer *)longPressGestureRecognizer {
+    UIImageView *imageView = (UIImageView *)[longPressGestureRecognizer view];
+    [UIView animateWithDuration:0.3
+                          delay:0
+                        options:UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                        imageView.layer.opacity = 0;
+                     }
+                     completion:^(BOOL finished){
+                        [self.images removeObject:imageView];
+                     }];
 }
 
 /// Method resets graphic elements depending on screen's size (needed for iPhone 5)
