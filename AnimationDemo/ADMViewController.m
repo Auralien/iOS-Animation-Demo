@@ -104,7 +104,7 @@ CGFloat const cardHeight = 287.0;
 
 /// Method animates cards appearance
 - (void)animationStep4Cards {
-    for (NSInteger i = 8; i >= 0; i--) {
+    for (NSInteger i = 9; i > 0; i--) {
         UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"card0%d.png", i]]];
         NSInteger yStart = (i % 2 == 0) ? self.view.frame.size.height + 10 : - cardHeight - 10;
         imageView.frame = CGRectMake(self.view.center.x, yStart, cardWidth, cardHeight);
@@ -125,8 +125,8 @@ CGFloat const cardHeight = 287.0;
         [self.view insertSubview:imageView belowSubview:self.left];
         [self.images addObject:imageView];
         
-        [UIView animateWithDuration:1
-                              delay:(double)(8 - i)
+        [UIView animateWithDuration:0.5
+                              delay:(double)(9 - i) * 0.5
                             options:UIViewAnimationOptionCurveEaseInOut
                          animations:^{
                              CGFloat viewWidth, viewHeight;
